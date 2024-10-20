@@ -1,0 +1,26 @@
+package method1;
+
+public class PalindromNumber {
+
+	public static void main(String[] args) {
+
+		for (int i = 121; i <= 129; i++) {
+			int j = i;
+			int n = palindrom(i);
+			if (n == j) {
+				System.out.println("palindrom " + n);
+			}
+		}
+
+	}
+
+	public static int palindrom(int n) {
+		int rev = 0;
+		while (n > 0) {
+			int rem = n % 10;
+			rev = rev * 10 + rem;
+			n = n / 10;
+		}
+		return rev;
+	}
+}

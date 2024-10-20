@@ -1,0 +1,15 @@
+package has_A_relationship;
+
+public class Mobile_Aggregation_relationship {
+
+	String name;
+	String generation;
+	double price;
+	Cover_aggregation c1;
+	
+	
+	Mobile_Aggregation_relationship()
+	{
+		
+	}
+}

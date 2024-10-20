@@ -1,0 +1,30 @@
+package method1;
+
+public class CalculatePowerEvenDigit {
+//32.WAP TO CALCULATE SQUARE OF THE DIGIT IN A NUMBER.IF THE DIGIT IS EVEN THEN ONLY FIND THE SQUARE.
+	public static void main(String[] args) {
+		for (int i = 12; i <= 12; i++) {
+
+		}
+
+	}
+
+	public static int factor(int n) {
+		int rem = 0;
+		while (n > 0) {
+			rem = n % 10;
+			n = n / 10;
+		}
+	}
+
+	public static int checkEven(int rem) {
+		if (rem % 2 == 0)
+		{
+			
+		}
+
+	System.out.println(" even   "+even);	
+	return rem;
+	}
+
+}

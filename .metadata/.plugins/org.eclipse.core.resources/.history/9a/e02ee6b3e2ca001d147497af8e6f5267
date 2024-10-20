@@ -1,0 +1,15 @@
+package method1;
+
+public class StrongNumber1 {
+	
+	public static void main(String[] args) {
+		for(int i=145;i<=145;i++)
+		{
+			StrongNumber.findFactorial(i);
+		}
+		public void findFactorial(int n)
+		{
+			
+		}
+	}
+}

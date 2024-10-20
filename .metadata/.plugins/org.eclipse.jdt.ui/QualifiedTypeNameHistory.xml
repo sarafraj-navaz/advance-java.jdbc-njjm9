@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.lang.ClassNotFoundException"/>
+    <fullyQualifiedTypeName name="com.mysql.cj.xdevapi.Statement"/>
+    <fullyQualifiedTypeName name="com.jsp.jdbc_employee_project_with_architecture.dto.EmployeeDto"/>
+    <fullyQualifiedTypeName name="java.lang.Thread"/>
+    <fullyQualifiedTypeName name="java.lang.Class"/>
+    <fullyQualifiedTypeName name="jdbc_employee_project_architecture_Dao.EmployeeDao"/>
+    <fullyQualifiedTypeName name="jdbc_employee_project_architecture_dto.Employee"/>
+    <fullyQualifiedTypeName name="jdbc_employee_project_architecture_Service.EmployeeService"/>
+    <fullyQualifiedTypeName name="com.jsp.jdbc_prepared_statement_crud_operation.connection.CountryConnection"/>
+    <fullyQualifiedTypeName name="com.jsp.jdbc_prepared_statement_crud_operation.dao.CountryDao"/>
+    <fullyQualifiedTypeName name="com.jsp.jdbc_prepared_statement_crud_operation.dto.Country"/>
+    <fullyQualifiedTypeName name="com.jsp.jdbc_prepared_statement_crud_operation.service.CountryService"/>
+    <fullyQualifiedTypeName name="jdbc_employee_project_with_architecturecom.jsp.jdbc_employee_project_with_architecture.dto.Employee"/>
+    <fullyQualifiedTypeName name="com.jsp.jdbc_employee_project_with_architecture.daocom.jsp.jdbc_employee_project_with_architecture.service.EmployeeService"/>
+    <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+    <fullyQualifiedTypeName name="java.sql.SQLException"/>
+    <fullyQualifiedTypeName name="com.jsp.jdbc_my_project.connection.MyConnection"/>
+    <fullyQualifiedTypeName name="com.jsp.jdbc_my_project.dto.MyProject"/>
+    <fullyQualifiedTypeName name="com.jsp.jdbc_my_project.dao.MyprojectDao"/>
+    <fullyQualifiedTypeName name="javax.management.loading.DefaultLoaderRepository"/>
+    <fullyQualifiedTypeName name="com.jsp.insert_one_to_many_data_store.connection.ProductConnection"/>
+    <fullyQualifiedTypeName name="com.jsp.insert_one_to_many_data_store.service.ProductService"/>
+    <fullyQualifiedTypeName name="com.jsp.insert_one_to_many_data_store.dao.ProductDao"/>
+    <fullyQualifiedTypeName name="com.jsp.insert_one_to_many_data_store.dto.Product"/>
+    <fullyQualifiedTypeName name="com.jsp.jdbc_employee_project_with_architecture.connection.EmployeeConnection"/>
+    <fullyQualifiedTypeName name="com.jsp.jdbc_employee_project_with_architecture.dao.EmployeeDao"/>
+    <fullyQualifiedTypeName name="com.jsp.jdbc_employee_project_with_architecture.service.EmployeeService"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.sql.Statement"/>
+    <fullyQualifiedTypeName name="java.sql.ResultSet"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.lang.Long"/>
+    <fullyQualifiedTypeName name="com.jsp.jdbc_employee_project_with_architecture.dto.Employee"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.sql.Connection"/>
+    <fullyQualifiedTypeName name="com.jsp.servlet_demo_project.connection.UserConnection"/>
+    <fullyQualifiedTypeName name="java.sql.Driver"/>
+    <fullyQualifiedTypeName name="java.sql.DriverManager"/>
+    <fullyQualifiedTypeName name="javax.servlet.Servlet"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+</qualifiedTypeNameHistroy>

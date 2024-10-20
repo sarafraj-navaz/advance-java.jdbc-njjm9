@@ -1,0 +1,16 @@
+127.0.0.1 - - [07/Jan/2024:18:39:10 +0530] "GET / HTTP/1.1" 404 751
+127.0.0.1 - - [07/Jan/2024:18:39:15 +0530] "GET /servlet-add1-project/index.jsp HTTP/1.1" 200 52
+127.0.0.1 - - [07/Jan/2024:18:39:15 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+127.0.0.1 - - [07/Jan/2024:18:46:10 +0530] "GET / HTTP/1.1" 404 751
+127.0.0.1 - - [07/Jan/2024:18:46:12 +0530] "GET /servlet-add1-project/addCalculate.jsp HTTP/1.1" 200 286
+127.0.0.1 - - [07/Jan/2024:18:46:16 +0530] "GET /servlet-add1-project/add? HTTP/1.1" 500 1167
+127.0.0.1 - - [07/Jan/2024:18:47:42 +0530] "GET / HTTP/1.1" 404 751
+127.0.0.1 - - [07/Jan/2024:18:47:43 +0530] "GET /servlet-add1-project/addCalculate.jsp HTTP/1.1" 200 286
+127.0.0.1 - - [07/Jan/2024:18:49:30 +0530] "GET / HTTP/1.1" 404 751
+127.0.0.1 - - [07/Jan/2024:18:49:30 +0530] "GET /servlet-add1-project/addCalculate.jsp HTTP/1.1" 200 286
+127.0.0.1 - - [07/Jan/2024:18:51:10 +0530] "GET /servlet-add1-project/addCalculate.jsp HTTP/1.1" 200 301
+127.0.0.1 - - [07/Jan/2024:18:51:14 +0530] "GET /servlet-add1-project/add? HTTP/1.1" 200 -
+127.0.0.1 - - [07/Jan/2024:18:51:50 +0530] "GET /servlet-add1-project/addCalculate.jsp HTTP/1.1" 200 299
+127.0.0.1 - - [07/Jan/2024:18:52:06 +0530] "GET /servlet-add1-project/add? HTTP/1.1" 200 -
+127.0.0.1 - - [07/Jan/2024:18:54:16 +0530] "GET /servlet-add1-project/addCalculate.jsp HTTP/1.1" 200 301
+127.0.0.1 - - [07/Jan/2024:18:54:24 +0530] "GET /servlet-add1-project/add?n=sarafraj HTTP/1.1" 200 -

@@ -1,0 +1,25 @@
+package method1;
+
+public class CalculatePower31 {
+//31.WAP TO CALCULATE POWER OF A NUMBER.->IN CLASS
+	public static void main(String[] args) {
+		
+		for(int i=5;i<=5;i++)
+		{
+			int n=power(i);
+		}
+
+	}
+	public static int power(int n)
+	{
+		int power=1;
+		for(int i=1;i<=2;i++)
+		{
+			power=power*n;
+			System.out.println("power"+power);
+		}
+		//System.out.println("power of the  number"+power);
+		return power;
+	}
+
+}

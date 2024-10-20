@@ -1,0 +1,26 @@
+package method1;
+
+public class ArmstrongNumber1 {
+
+	public static void main(String[] args) {
+		int n=153;
+		int count1=countNumber(n);
+		System.out.println(count1);
+		
+	}
+//	public static int sum(int sum)
+//	{
+//		
+//	}
+	public static int countNumber(int n)
+	{
+		int count =0;
+		while(n>0)
+		{
+			count=count+1;
+			n=n/10;
+		}
+	return	count;
+	}
+
+}

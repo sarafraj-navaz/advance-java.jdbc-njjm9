@@ -1,0 +1,21 @@
+package Exercise;
+
+public class Program18Even {
+//18.WAP TO PRINT EVEN DIGITS IN A NUMBER.
+	public static void main(String[] args) {
+
+		for(int i=12;i<13;i++)
+		{
+			int  n=i;
+			int rem=0;
+			while(n>0)
+			{
+				rem=n%10;
+				System.out.println(rem);
+				n=n/10;
+			}
+			
+		}
+	}
+
+}

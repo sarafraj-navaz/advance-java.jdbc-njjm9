@@ -1,0 +1,80 @@
+package com.jsp.jdbc_employee_project_with_architecture.service;
+
+import com.jsp.jdbc_employee_project_with_architecture.dao.EmployeeDao;
+import com.jsp.jdbc_employee_project_with_architecture.dto.Employee;
+
+public class EmployeeService {
+
+	/*
+	 * we create the object of Dao class to call Dao inside the service method
+	 * 
+	 * 
+	 */
+	EmployeeDao employeeDao = new EmployeeDao();
+	/*
+	 * 
+	 * 
+	 * employee save method where i can pass employee name,email,phone,id where id
+	 * is primary key
+	 * 
+	 * 
+	 * Save ===METHOD
+	 */
+
+	public void saveEmployeeService(Employee employee) {
+		System.out.println("EmployeeService Save  method start");
+
+		int id = employee.getEmployeeId();
+		int count = 0;
+		while (id != 0) {
+			count++;
+			id /= 10; // id=id/10;
+		}
+		if ((count >= 2) && (count <= 5)) {
+			employeeDao.saveEmployeeDao(employee);
+		} else {
+			System.err.println("please provide your id between 2 to 5 ddigit only");
+		}
+		System.out.println("EmployeeService save method ended");
+	}
+
+	/*
+	 * 
+	 * delete method for employee
+	 * 
+	 */
+	public void deleteEmployeeById(int employeeId) {
+
+		int tableId = employeeDao.getById(employeeId);
+
+		if (tableId == employeeId) {
+
+			employeeDao.deleteEmployeeById(employeeId);
+
+		} else {
+
+			System.out.println("you have given Id is not present please check once");
+		}
+	}
+
+	/*
+	 * 
+	 * Update Query;
+	 * 
+	 */
+	public int updateEmployee(String employeeName, int employeeId) {
+
+		int tableId = employeeDao.getById(employeeId);
+
+		if (tableId == employeeId) {
+			int tablefetchedId = employeeDao.updateEmployee(employeeName, employeeId);
+			System.out.println("Given New Name " +employeeName+ "Updated successfully...");
+			return tablefetchedId;
+		} else {
+			System.err.println("you have given id is not present please check once...");
+			
+			return 0;
+		}
+		
+	}
+}

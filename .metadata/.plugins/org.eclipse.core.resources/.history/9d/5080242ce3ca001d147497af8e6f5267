@@ -1,0 +1,17 @@
+package method1;
+
+public class StrongNumber1 {
+	
+	public static void main(String[] args) {
+		
+		for(int i=145;i<=145;i++)
+		{
+			findFactorial(i);
+		}
+		
+	}
+	public static void findFactorial(int n)
+	{
+		System.err.println(n);
+	}
+}

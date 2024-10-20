@@ -1,0 +1,9 @@
+package Constructor;
+
+public class Browser {
+
+	public Browser() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

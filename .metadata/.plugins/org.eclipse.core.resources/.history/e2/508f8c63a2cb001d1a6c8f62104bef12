@@ -1,0 +1,27 @@
+package method1;
+
+public class PalindromNumber {
+
+	public static void main(String[] args) {
+		for(int i=7;i<=7;i++)
+		{
+			int n=i;
+			int returnNumber=number(i);
+			System.out.println(" prime "+returnNumber);
+		}
+
+	}
+	
+	public static int number(int n)
+	{
+		for(int i=1;i<=n;i++)
+		{
+			if(n%i==0)
+			{
+			 // System.out.println(i);
+			}
+		}
+		return n;
+	}
+
+}

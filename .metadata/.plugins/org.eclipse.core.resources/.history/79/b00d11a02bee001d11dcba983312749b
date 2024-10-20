@@ -1,0 +1,5 @@
+package com.hiberanate_simple_crud_operation.dto;
+
+public class Customer {
+
+}

@@ -1,0 +1,40 @@
+package method1;
+
+public class ArmstrongNumber100 {
+	
+	public static void main(String[] args) {
+		
+		int n=153;
+		int p=n;
+		int sum=0;
+		int x=countNumber(n);
+		System.out.println("count "+x);
+		int rem=factorialNumber(p);
+		System.out.println(" remember  of the number  "+rem);
+		
+	}
+	public static int countNumber(int n)
+	{
+		int count=0;
+		while(n>0)
+		{
+			count=count+1;
+			n=n/10;
+		}
+		System.out.println("count  "+count);
+	return count;	
+	}
+	public static int factorialNumber(int n)
+	{
+		int rem=0;
+		while(n>0)
+		{
+			 rem=n%10;
+			System.out.println(" factorial "+rem);
+			n=n/10;
+		}
+		//System.out.println("remember of the number "+rem);
+	return rem;	
+	}
+
+}

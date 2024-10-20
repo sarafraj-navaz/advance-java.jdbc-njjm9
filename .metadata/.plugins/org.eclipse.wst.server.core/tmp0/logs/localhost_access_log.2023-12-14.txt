@@ -1,0 +1,7 @@
+127.0.0.1 - - [14/Dec/2023:16:19:59 +0530] "GET / HTTP/1.1" 404 751
+127.0.0.1 - - [14/Dec/2023:16:20:05 +0530] "GET /J-Cart-Web-App/ HTTP/1.1" 200 334
+127.0.0.1 - - [14/Dec/2023:16:20:09 +0530] "GET /J-Cart-Web-App/admin-login.jsp HTTP/1.1" 200 832
+127.0.0.1 - - [14/Dec/2023:16:20:16 +0530] "GET /J-Cart-Web-App/app-home.jsp HTTP/1.1" 200 334
+127.0.0.1 - - [14/Dec/2023:16:20:17 +0530] "GET /J-Cart-Web-App/user-login.jsp HTTP/1.1" 200 1118
+127.0.0.1 - - [14/Dec/2023:16:20:19 +0530] "GET /J-Cart-Web-App/app-home.jsp HTTP/1.1" 200 334
+127.0.0.1 - - [14/Dec/2023:16:20:20 +0530] "GET /J-Cart-Web-App/owner-login.jsp HTTP/1.1" 200 659

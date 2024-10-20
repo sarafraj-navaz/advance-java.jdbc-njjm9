@@ -1,0 +1,64 @@
+package com.jsp.jdbc_employee_project_with_architecture.controller;
+
+
+import java.util.Scanner;
+import com.jsp.jdbc_employee_project_with_architecture.dto.Employee;
+import com.jsp.jdbc_employee_project_with_architecture.service.EmployeeService;
+
+
+public class EmployeeController {
+	
+	public static void main(String[] args) {
+		System.out.println("main method start");
+		
+		Scanner scanner  = new Scanner(System.in);
+		Employee employee = new Employee();
+		
+		
+		EmployeeService  employeeService = new EmployeeService();
+		while(true)
+		{
+			
+			System.out.println("1.insert");
+			System.out.println("Enter your option");
+			int ch = scanner.nextInt();
+			
+			switch(ch)
+			{
+			
+			case  1:{
+				
+				System.out.println("case1 is start");
+				
+				System.out.println("please enter your id");
+				int id  = scanner.nextInt();
+				employee.setEmployeeId(id);
+				
+				System.out.println("please enter the your  name");
+				String name = scanner.next();
+				employee.setEmployeeName(name);
+				
+				System.out.println("please the your email ");
+				String email =scanner.next();
+				employee.setEmployeeEmail(email);
+				
+				System.out.println("please enter your phone number");
+				long phone = scanner.nextLong();
+				employee.setEmployeePhone(phone);
+				
+				employeeService.saveEmployeeService(employee);
+				
+				System.out.println("case-1 is ended");
+			}break;
+			case 2:{
+				System.out.println("please enter your id to delete yourself");
+				
+				int id = scanner.nextInt();
+				employeeService.deleteEmployeeById(id);
+			}
+			}
+		}
+		
+	}
+
+}
